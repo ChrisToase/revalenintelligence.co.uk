@@ -63,6 +63,15 @@ body {
   justify-content: space-between;
 }
 
+.card img {
+  display: block;
+  margin: 0 0 1rem auto; /* Right-aligned */
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
 .card h3 {
   margin-top: 0;
   color: #111;
@@ -70,4 +79,59 @@ body {
 
 .card p {
   color: #333;
+}
+.buttons .btn {
+  text-decoration: none;
+  border: 2px solid #3f4d5d;
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: #3f4d5d;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.buttons .btn:hover {
+  background-color: #2e3a45;
+  border-color: #2e3a45;
+}
+
+.btn.primary {
+  background-color: #3f4d5d;
+  color: #fff;
+  border: 2px solid #3f4d5d;
+}
+
+.btn.primary:hover {
+  background-color: #2e3a45;
+  border-color: #2e3a45;
+}
+
+.btn.secondary {
+  background-color: #fff;
+  color: #3f4d5d;
+  border: 2px solid #3f4d5d;
+}
+
+.btn.secondary:hover {
+  background-color: #f2f2f2;
+}
+
+.card .btn.small {
+  align-self: start;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #3f4d5d;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #3f4d5d;
+  transition: 0.3s;
+}
+
+.card .btn.small:hover {
+  background-color: #2e3a45;
+  border-color: #2e3a45;
 }
